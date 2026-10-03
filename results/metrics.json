@@ -1,0 +1,15 @@
+{
+  "model": "weights/best.pt",
+  "split": "test",
+  "test_images": 31,
+  "test_plates": 33,
+  "precision": 0.847,
+  "recall": 0.8392,
+  "mAP50": 0.8908,
+  "mAP50_95": 0.5146,
+  "speed_ms_per_img": {
+    "preprocess": 2.52,
+    "inference": 90.56,
+    "postprocess": 9.12
+  }
+}

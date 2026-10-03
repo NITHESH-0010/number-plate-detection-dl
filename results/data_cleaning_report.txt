@@ -1,0 +1,15 @@
+=== Data Cleaning & Preparation Report ===
+Selected Dataset Slug: andrewmvd/car-plate-detection
+Initial raw image count: 433
+Removed corrupt images: 0
+Removed duplicate images: 131
+Removed missing annotations: 0
+Removed invalid/empty boxes: 0
+Total valid samples retained: 302
+
+=== Dataset Splits ===
+Train split (70%): 211
+Val split   (20%): 60
+Test split  (10%): 31
+
+Generated dataset configuration file at: dataset/data.yaml
