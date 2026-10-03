@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+# Secrets and Credentials
+kaggle.json
+*_key.json
+secrets.json
+*.pem
+
+# Datasets and Outputs
+dataset/
+runs/
+*.zip
+*.tar.gz
+*.log
+
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs and Tools
+.idea/
+.vscode/
+.DS_Store
+.gemini/
+.agents/
+scratch/
+
+# Large Model Weights (except designated best.pt under weights/)
+*.pt
+!weights/best.pt
