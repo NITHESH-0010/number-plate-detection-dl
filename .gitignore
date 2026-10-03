@@ -16,11 +16,15 @@ runs/
 *.zip
 *.tar.gz
 *.log
+results/*.mp4
+videos/*.mp4
+!videos/README.md
 
 # Byte-compiled / Python cache
 __pycache__/
 *.py[cod]
 *$py.class
+.ipynb_checkpoints/
 
 # IDEs and Tools
 .idea/
@@ -30,6 +34,7 @@ __pycache__/
 .agents/
 scratch/
 
-# Large Model Weights (except designated best.pt under weights/)
+# Model weights
+yolov8n.pt
 *.pt
 !weights/best.pt
